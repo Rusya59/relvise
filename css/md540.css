@@ -1,0 +1,73 @@
+@media (max-width: 540px) {
+  .header {
+    padding: 30px 0;
+  }
+  .header__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .header__logo {
+    margin: 0 0 20px 0;
+  }
+  /* ============================================================ */
+  .finance {
+    padding: 40px 0 150px 0;
+  }
+  .finance__title {
+    font-size: 32px;
+  }
+  /* ================================================================ */
+  .adventages {
+    margin: -80px 0 0;
+  }
+  .adventages__item {
+    padding: 25px 30px;
+  }
+  .adventages__title {
+    font-size: 20px;
+  }
+  /* ================================================================= */
+  .experience__title {
+    font-size: 26px;
+  }
+  .experience__body {
+    margin: 0 0 30px;
+  }
+  .body__title {
+    font-size: 26px;
+  }
+  /* ================================================================== */
+  .practice__column {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    padding: 0 15px 20px;
+  }
+  .practice__column:last-child {
+    padding: 0 15px 0;
+  }
+}
+
+/* =================================================================== */
+/* =================================================================== */
+@media (max-width: 400px) {
+  .finance__btn {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .finance__button {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+  }
+  .finance__button:not(:last-child) {
+    margin: 0 0 10px 0;
+  }
+}

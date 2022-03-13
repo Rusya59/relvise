@@ -1,0 +1,12 @@
+@media (max-width: 762px) {
+	.finance {
+		&__title {
+			font-size: 36px;
+		}
+		&__button--green {
+			background-color: $btn-sec;
+			color: #fff;
+		}
+	}
+	/* ============================================================ */
+}

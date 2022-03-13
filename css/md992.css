@@ -1,0 +1,62 @@
+@media (max-width: 992px) {
+  .finance__body > *:not(:last-child) {
+    margin: 0 0 25px;
+  }
+  .finance__title {
+    font-size: 42px;
+  }
+  .finance__text {
+    color: #000;
+  }
+  /* ============================================================ */
+  .adventages__row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .adventages__column {
+    padding: 0 15px 30px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 50%;
+            flex: 0 1 50%;
+  }
+  /* ============================================================ */
+  .experience {
+    padding: 50px 0;
+  }
+  .experience__row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .experience__column {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 50%;
+            flex: 0 1 50%;
+    padding: 0 15px 30px;
+  }
+  .experience__title {
+    font-size: 36px;
+  }
+  .body {
+    text-align: center;
+  }
+  .body > *:not(:last-child) {
+    margin: 0 0 10px 0;
+  }
+  .body__title {
+    font-size: 36px;
+  }
+  /* ================================================================= */
+  .practice {
+    padding: 50px 0;
+  }
+  .practice__row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .practice__column {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 50%;
+            flex: 0 1 50%;
+    padding: 0 15px 30px;
+  }
+}
